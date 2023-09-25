@@ -1,0 +1,13 @@
+.edit-btn {
+  position: absolute;
+  top: 100px;
+  border-radius: 50%;
+  height: 0px;
+  margin: 0;
+  font-size: 15px;
+  opacity: 0.1;
+}
+.edit-btn:hover {
+  transition: 0.2s ease-in;
+  opacity: 1;
+}

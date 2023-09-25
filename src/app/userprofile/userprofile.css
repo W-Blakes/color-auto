@@ -1,0 +1,83 @@
+.profile-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 800px;
+  width: 100%;
+}
+.profile-container .edit-btn {
+  display: none;
+}
+
+.profile-container .profile-img {
+  margin: 1rem auto;
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  background: var(--primary-background);
+}
+
+.profile-details {
+  width: 90%;
+  margin-bottom: 1rem;
+}
+.user-form {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  width: 100%;
+  min-width: 300px;
+}
+.user-form h4 {
+  width: 100%;
+  text-align: left;
+  max-width: 600px;
+  margin: 0.4rem auto;
+  padding: 0 1rem 0;
+}
+
+.user-form label {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem auto 0rem;
+}
+.user-form span {
+  width: 30%;
+  text-align: start;
+}
+.user-form input {
+  height: 2rem;
+  width: 60%;
+  padding-left: 0.4rem;
+}
+.user-form .btn {
+  width: 120px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.profile-label {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 1rem auto 0rem;
+}
+.profile-span {
+  width: 50%;
+  text-align: center;
+}
+
+.thumbnail-input {
+  height: 2rem;
+  width: 200px;
+  padding-left: 0.4rem;
+}

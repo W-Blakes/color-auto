@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  margin: 0 auto;
+  width: 100%;
+  background: var(--secondary-background);
+  border-radius: 6px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+a {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 70%;
+  flex: 1;
+}
+.brand {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+.logo-img {
+  display: none;
+  height: 50px;
+  width: 50px;
+  margin-left: 1rem;
+  border-radius: 50%;
+  background: var(--primary-color);
+}
+.brand-text {
+  margin: 1rem;
+  width: 50%;
+  text-align: left;
+}
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  max-width: 225px;
+  margin: 0 1rem 0;
+}
+nav ul li {
+  margin: 1rem auto;
+  text-decoration: none;
+  list-style: none;
+  max-width: 125px;
+}

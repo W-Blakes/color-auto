@@ -1,0 +1,66 @@
+.sidebar {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100vh;
+  min-width: 250px;
+  /* margin-right: 1rem; */
+  background: var(--primary-background);
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  box-shadow: 8px 0 20px #000;
+  z-index: 20;
+}
+.profile {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  min-width: 250px;
+}
+.profile-img {
+  margin: 1rem auto;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background: var(--secondary-background);
+}
+.profile p {
+  margin: 1rem auto;
+  margin-bottom: 2rem;
+}
+.border-bottom {
+  height: 2px;
+  width: 80%;
+  border-bottom: 1px solid #ffffff42;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-flow: column nowrap;
+  margin-top: 3rem;
+}
+.menu p {
+  display: flex;
+  width: 80%;
+  height: 3rem;
+  text-align: end;
+  background: none;
+  margin: 0.4rem 0;
+}
+
+.menu p a {
+  justify-content: center;
+  text-transform: capitalize;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background: none;
+}
+.menu p a.active {
+  justify-content: center;
+  text-transform: capitalize;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background: var(--background);
+}
