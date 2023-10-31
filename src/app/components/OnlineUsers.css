@@ -2,7 +2,6 @@
   display: none;
   height: 100vh;
   min-width: 250px;
-  /* margin-left: 1rem; */
   background: var(--form-background);
   border-radius: 6px;
   border-top-right-radius: 0;
